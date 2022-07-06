@@ -8,6 +8,7 @@ from tensorDLT import solve_DLT
 from tf_spatial_transform import transform
 from tensorflow.contrib.layers import conv2d
 
+
 def H_model(inputs_aug, inputs, is_training, patch_size=128.):
 
     batch_size = tf.shape(inputs)[0]
